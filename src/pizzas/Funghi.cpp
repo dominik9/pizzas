@@ -1,5 +1,8 @@
 #include "Funghi.hpp"
 
 Funghi::Funghi(double price)
-    : Pizza("Funghi", price, minutes(4))
-{}
+{
+    name_ = "Funghi";
+    price_ = price;
+    bakingTime_ = minutes(4);
+}

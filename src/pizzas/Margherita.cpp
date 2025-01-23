@@ -1,5 +1,8 @@
 #include "Margherita.hpp"
 
 Margherita::Margherita(double price)
-    : Pizza("Margherita", price, minutes(3))
-{}
+{
+    name_ = "Margherita";
+    price_ = price;
+    bakingTime_ = minutes(3);
+}
